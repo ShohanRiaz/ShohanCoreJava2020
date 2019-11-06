@@ -1,0 +1,27 @@
+package constructor;
+
+public class Student {
+	
+	public String Name; //global variable
+	public int id;
+	public char grade;
+	public boolean usCitizen;
+	
+	public Student() { //default constructor
+		System.out.println("This is from default constructor"); 
+	}
+	
+	public Student(String Name, int id) { //parameterized constructor //String Name, int id is called parameterized variable
+		this.id = id;
+		this.Name = Name;
+		
+		System.out.println("Student is: "+Name+ " and his ID is: "+id); 
+	}
+	
+	public static void main(String[] args) {
+		Student st1 = new Student(); //initialization of default constructor
+		Student st2 = new Student("Sohan", 007);
+		Student st3 = new Student("Tofael", 8);
+		}
+
+}

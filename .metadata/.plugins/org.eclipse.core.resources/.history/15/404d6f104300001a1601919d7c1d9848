@@ -1,0 +1,19 @@
+package inheritance;
+
+public class Father extends GrandFather {
+	
+	public Father() {
+		super();
+		System.out.println("Default from Father");
+	}
+	
+	
+	
+	public void fatherInfo() {
+		System.out.println("Father: Ghulam Mustafa");
+	}
+
+
+}
+
+

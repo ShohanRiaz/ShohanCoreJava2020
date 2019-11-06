@@ -1,0 +1,27 @@
+package simpleTest;
+
+public class House {
+	
+	 String Type = "Duplex"; 
+	 int number = 512;    
+	 char apartment = 'C';     
+	 boolean basement = true;   
+	 
+	 public House() {
+		 System.out.println("This is our house");
+	 }
+	 
+	 public void houseDetails(){ 
+
+
+			System.out.println("My house is: " + Type + " \nAnd the house number is: " + 
+			number + ", Apartment number is '" +apartment+ "' type house " + " Is there a basement?: "+basement ); 
+			
+			}
+	
+	public static void main(String[] args) {
+		House house1 = new House(); //here car is an object //instantiate the class //default constructor initialize
+		house1.houseDetails(); //method initialize
+	}	
+
+}

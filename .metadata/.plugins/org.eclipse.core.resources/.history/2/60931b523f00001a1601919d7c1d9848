@@ -1,0 +1,7 @@
+package inheritance;
+
+public class Son {
+	public void sonInfo() {
+		System.out.println("Son: Syed Riaz");
+	}
+}

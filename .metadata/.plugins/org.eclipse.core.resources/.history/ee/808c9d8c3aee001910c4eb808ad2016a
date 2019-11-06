@@ -1,0 +1,16 @@
+package simpleTest;
+
+public class Joe {
+
+	public static void main(String[] args) {
+	
+		 String Name = "Joe"; 
+		 int id = 22098;   
+		 char grade = 'A';     
+		 boolean citizen = true;
+
+		 System.out.println("Hi, My Name is: " + Name + " My student ID is: " + 
+					id + "My grade is" +grade+ " US citizen status: "+citizen );
+	}
+
+}
