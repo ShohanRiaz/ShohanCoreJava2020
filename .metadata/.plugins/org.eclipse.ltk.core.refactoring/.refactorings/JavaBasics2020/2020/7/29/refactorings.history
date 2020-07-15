@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;hw06Abstraction&apos; to &apos;learningJava2019/src&apos;&#x0D;&#x0A;- Original project: &apos;JavaBasics2020&apos;&#x0D;&#x0A;- Destination element: &apos;learningJava2019/src&apos;&#x0D;&#x0A;- Original element: &apos;JavaBasics2020/src/hw06Abstraction&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=learningJava2019/src" element1="/src&lt;hw06Abstraction" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1594576246240" version="1.0"/>
+</session>

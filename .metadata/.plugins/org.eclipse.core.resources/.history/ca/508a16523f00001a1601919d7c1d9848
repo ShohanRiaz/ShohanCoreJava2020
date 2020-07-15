@@ -1,7 +1,0 @@
-package inheritance;
-
-public class Aunt {
-	public void auntInfo() {
-		System.out.println("Aunt: Husne Ara");
-	}
-}

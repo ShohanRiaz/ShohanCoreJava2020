@@ -1,0 +1,16 @@
+package practiceReturnType;
+
+public class testCalculator {
+
+	public static void main(String[] args) {
+		Calculator1 cal1 = new Calculator1();
+		cal1.addition();
+		cal1.subtraction();
+		
+		Calculator2 cal2 = new Calculator2();
+		cal2.addition();
+		cal2.subtraction();		
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package practicesuper;
+
+public class TestDaddy {
+
+	public static void main(String[] args) {
+		
+		
+		Tanzina tz=new Tanzina();
+		tz.carryingFamilyName();
+		
+	
+	}
+
+}

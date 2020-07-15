@@ -1,0 +1,5 @@
+package hw06Abstraction;
+
+public interface University {
+
+}

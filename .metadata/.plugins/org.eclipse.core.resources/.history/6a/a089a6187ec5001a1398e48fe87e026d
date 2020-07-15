@@ -1,0 +1,18 @@
+package practicesuper;
+
+public class TestDaddy {
+
+	public static void main(String[] args) {
+		Daddy dy=new Daddy(40,"jhon");
+		dy.eye();
+		dy.age=70;
+		dy.family_name="jon";
+		dy.first_name = "Ali";
+		Daddy dy1 = new Daddy(70, "Ali", "Imam");
+		Tanzina tz=new Tanzina();
+		tz.carryingFamilyName();
+		
+	
+	}
+
+}

@@ -1,0 +1,25 @@
+package hw7Q3IfElseCondition01;
+
+public class Exam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 40;
+		
+		if (a <= 0) {
+		System.out.println("This is an invalid number");
+	}
+	else if (a > 100) {
+	
+	System.out.println("This is an invalid number");
+	}
+	else if (a >=30) {
+		System.out.println("You've Failed");
+	}
+		
+		else {
+		System.out.println("Your score is "+ a);
+	}
+}
+}
+

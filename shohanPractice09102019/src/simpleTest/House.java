@@ -7,8 +7,8 @@ public class House {
 	 char apartment = 'C';     
 	 boolean basement = true;   
 	 
-	 public House() {
-		 System.out.println("This is our house");
+	 public House() { // default constructor
+		System.out.println("This is our house");
 	 }
 	 
 	 public void houseDetails(){ //method implemented //method name can be same as class name but not a good practice
@@ -19,8 +19,8 @@ public class House {
 	
 	public static void main(String[] args) {
 		House house1 = new House();  //default constructor initialized
-		house1.houseDetails(); //method initialize
-		house1.Name ="Shohan";
+		house1.houseDetails(); //method initialized
+		house1.Name ="Shohan"; // method called
 	}	
 
 }

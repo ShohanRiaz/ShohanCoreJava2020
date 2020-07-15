@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;polymorphism.LanCalculator&apos; to &apos;LandCalculator&apos;&#x0D;&#x0A;- Original project: &apos;learningJava2019&apos;&#x0D;&#x0A;- Original element: &apos;polymorphism.LanCalculator&apos;&#x0D;&#x0A;- Renamed element: &apos;polymorphism.LandCalculator&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LanCalculator&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;polymorphism{LanCalculator.java[LanCalculator" matchStrategy="1" name="LandCalculator" qualified="false" references="true" similarDeclarations="false" stamp="1576032320470" textual="false" version="1.0"/>
+</session>

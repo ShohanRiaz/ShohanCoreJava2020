@@ -1,0 +1,9 @@
+package hw7Q2Polymorphism;
+
+public class Cousin1 {
+
+		public void ageOfCousins (int age1, int age2) {
+			System.out.println();
+		}
+	}
+

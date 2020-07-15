@@ -1,8 +1,0 @@
-package inheritance;
-
-public class GrandDaughter {
-	public void grandDaughterInfo() {
-		System.out.println("GrandDaughter: Aryssa");
-	}
-
-}

@@ -15,4 +15,4 @@ public class Garden {
 
 //if there is a space between line, it doesn't matter'
 
-//cnt A, then shift+control+f
+//ctrl A, then shift+control+f

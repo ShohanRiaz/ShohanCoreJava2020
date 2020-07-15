@@ -24,26 +24,22 @@ public void goToCasino() {
 
 public static void main(String[] args) {
 Casino c1 = new Casino();
-c1.Jackpot = "million";
+c1.Jackpot = "million ";
 c1.winningNumber = 12;
 c1.prizeMoney = 100000;
 c1.goToCasino();
 
-Casino c2 = new Casino("Gillion", 19, 3645589);
-c2.Jackpot = "billion";
+Casino c2 = new Casino("Gillion ", 19, 3645589);
+c2.Jackpot = "billion ";
 c2.winningNumber = 14;
 c2.prizeMoney = 200000;
 c2.goToCasino();
 
-Casino c3 = new Casino();
-c3.Jackpot = "trillion";
+Casino c3 = new Casino("Pillion ", 27, 7645589);
+c3.Jackpot = "trillion ";
 c3.winningNumber = 19;
 c3.prizeMoney = 890000;
 c3.goToCasino();
-
-
-
-
 
 }
 
