@@ -1,0 +1,25 @@
+package hworkCoreJAVA;
+
+
+/*
+	In Java, extends and implements keyword is used in Java, but in a regular class, implements keyword is used
+	to inherit Interface and extends keywords to inherit a regular class or an abstract class
+*/
+public abstract class MedicalSchool extends NursingSchool {
+	 /* extends keyword is used to inherit a regular class or an abstract class in regular class.
+	 Multiple inheritance is not possible by extends keyword in regular class.
+	 Extends keyword can not inherit an interface in regular or abstract class.
+	 */
+	
+	public MedicalSchool() {
+		System.out.println("This is from default constructor of MedicalSchool");
+	}
+	public void anatomyLab() {
+		System.out.println("Anatomy Lab");
+	}
+	public abstract void biochemistryLab();
+	/* Abstract class can have abstract and non abstract methods.
+	Methods can not be implemented in Abstract class.
+	*/
+
+}
