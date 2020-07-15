@@ -1,0 +1,23 @@
+package hw7Q4IfElseCondition02;
+
+public class Weather {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int temperature = -8;
+		
+		if (temperature == 0) {
+			System.out.println("The temperature is zero");
+		}
+		else if (temperature%2 == 1) {
+			System.out.println("The temperature is an odd number");
+		}
+		else if (temperature%2== 0 && temperature > 0) {
+			System.out.println("The temperature is an even number");
+		}
+		else if (temperature < 0) {
+			System.out.println("The temperature is a negative number");
+		}
+	}
+
+}
